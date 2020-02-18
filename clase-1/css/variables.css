@@ -1,0 +1,12 @@
+.main-area-1 {
+    --template-columns: 200px 1fr;
+    --template-areas:"nav nav"
+                     "lateral content"
+                     "footer footer";
+}
+.main-area-2 {
+    --template-columns: 50px 1fr;
+    --template-areas:"nav nav"
+                     "lateral content"
+                     "footer footer";
+}
