@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <input type="text" id="numeroNuevo">
+    <input type="button" onclick="sumarNumero()">
+    <div id="content" class="container">
+        <div class="row-btn screen">
+            <div class="operation">res</div>
+            <div id="screen" class="view"></div>
+        </div>
+        <div class="row-btn">
+            <button class="btn-number btn-p">7</button>
+            <button class="btn-number btn-p">8</button>
+            <button class="btn-number btn-p">9</button>
+            <button class="btn-number btn-s">/</button>
+        </div>
+        <div class="row-btn">
+            <button class="btn-number btn-p">4</button>
+            <button class="btn-number btn-p">5</button>
+            <button class="btn-number btn-p">6</button>
+            <button class="btn-number btn-s">x</button>
+        </div>
+        <div class="row-btn">
+            <button class="btn-number btn-p">1</button>
+            <button class="btn-number btn-p">2</button>
+            <button class="btn-number btn-p">3</button>
+            <button class="btn-number btn-s">+</button>
+        </div>
+        <div class="row-btn">
+            <button class="btn-number btn-p">0</button>
+            <button class="btn-number btn-p">.</button>
+            <button class="btn-number btn-danger">=</button>
+            <button class="btn-number btn-s">-</button>
+        </div>
+        <div class="row-btn">
+            <button class="btn-number btn-ok">Clear</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

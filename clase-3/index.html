@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="para">Texto Color</p>
+    <button id="blue" onclick="cambiarColor('blue')">BLUE</button>
+    <button id="red" onclick="cambiarColor('red')">RED</button>
+
+    <script>
+        function cambiarColor(color){
+            var elem = document.getElementById("para");
+            elem.style.color = color;
+        }
+    </script>
+</body>
+
+</html>
